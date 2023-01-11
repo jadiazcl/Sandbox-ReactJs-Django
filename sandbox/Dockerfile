@@ -7,6 +7,8 @@ COPY package-lock.json /code/package-lock.json
 
 COPY . /code
 
+RUN npm ci
+
 CMD [ "npm", "start" ]
 
 RUN [ "npm", "run", "build" ]
