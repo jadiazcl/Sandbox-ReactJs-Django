@@ -9,4 +9,4 @@ COPY . /code
 
 CMD [ "npm", "start" ]
 
-RUN [ "yarn", "run", "build" ]
+RUN [ "npm", "run", "build" ]
