@@ -1,0 +1,20 @@
+version: "3.5"
+
+services:
+  fronted:
+    build: sandbox
+    ports:
+      - 3000:3000
+    volumes:
+      - ./sandbox/src:/code/src
+      - /sandbox/node_modules
+  backend:
+    container_name: BackDjango
+    build:
+      context: .
+      dockerfile: APIBackend/Dockerfile
+    command: python3 APIBackend/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
