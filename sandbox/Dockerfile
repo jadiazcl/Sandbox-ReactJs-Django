@@ -7,7 +7,7 @@ COPY package-lock.json /code/package-lock.json
 
 COPY . /code
 
-RUN npm ci
+RUN [ "yarn", "install" ]
 
 CMD [ "npm", "start" ]
 
