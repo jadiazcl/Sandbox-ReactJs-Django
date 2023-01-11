@@ -7,6 +7,6 @@ COPY package-lock.json /code/package-lock.json
 
 COPY . /code
 
-RUN [ "yarn", "start" ]
+RUN [ "npm", "start" ]
 
 RUN [ "yarn", "run", "build" ]
