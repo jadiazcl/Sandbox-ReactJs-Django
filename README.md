@@ -92,8 +92,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 - [![Docker][docker]][docker-url]
 - [![Bootstrap][bootstrap]][bootstrap-url]
 - [![Javascript][javascript]][javascript-url]
-- ![Css3][css3]
-- ![Html5][html5]
+- [![Python][python]][python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,6 +200,7 @@ Project Link: [https://github.com/Jor-Diaz/Sandbox-ReactJs-Django](https://githu
 [django-url]: https://www.djangoproject.com/
 [django]: https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[python-url]: https://www.python.org/
 [docker-url]: https://www.docker.com/
 [docker]: https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
 [javascript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
