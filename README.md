@@ -1,25 +1,6 @@
 # Sandbox-ReacJs-Django
 
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
 <a name="readme-top"></a>
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -68,8 +49,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -99,17 +78,15 @@ This repo is a sandbox project for developers. It's a startup of a ReactJs and D
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+To run the repository, you must have the following installed on your computer
 
-- docker-compose
-  ```sh
-  npm install npm@latest -g
-  ```
+- Git
+- Docker
+- Docker Compose
 
 ### Installation
 
@@ -117,7 +94,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/Jor-Diaz/Sandbox-ReactJs-Django.git
    ```
-2. Execute build Docker Compose
+2. Execute build with Docker Compose
    ```sh
    docker-compose build
    ```
@@ -132,22 +109,7 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+- In progress
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,15 +127,18 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Project Link: [https://github.com/Jor-Diaz/Sandbox-ReactJs-Django](https://github.com/Jor-Diaz/Sandbox-ReactJs-Django)
 
+Linkedin: [https://cl.linkedin.com/in/jdiazmatte](https://cl.linkedin.com/in/jdiazmatte)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
 
-- []()
-- []()
-- []()
+- [Choose an Open Source License](https://choosealicense.com)
+
+* [othneildrew -Template README](https://github.com/othneildrew/Best-README-Template)
+* [Img Shields](https://shields.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
