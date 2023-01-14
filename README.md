@@ -32,10 +32,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/Jor-Diaz/Sandbox-ReactJs-Django">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Sandbox ReactJs-Django</h3>
+<h2 align="center">Sandbox ReactJs-Django</h2>
 
   <p align="center">
     Demo ReactJs-DJango project using Docker. Startup for others projects. 
