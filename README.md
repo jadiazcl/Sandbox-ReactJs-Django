@@ -42,7 +42,7 @@
     <a href="https://github.com/Jor-Diaz/Sandbox-ReactJs-Django"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Jor-Diaz/Sandbox-ReactJs-Django">View Demo</a>
+    <a href="#">View Demo</a>
     ·
     <a href="https://github.com/Jor-Diaz/Sandbox-ReactJs-Django/issues">Report Bug</a>
     ·
@@ -80,7 +80,7 @@
 
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This repo is a sandbox project for developers. It's a startup of a ReactJs and Django project using docker. This is an example of a forum software, using ReactJs like frontend and Django (Rest-framework) for backend. It no has a MySQL or SQL BD, using sqlite for default. In other repo, I have a project with ReactJs, Django and MySQL.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
