@@ -152,7 +152,7 @@ Linkedin: [https://cl.linkedin.com/in/jdiazmatte](https://cl.linkedin.com/in/jdi
 [issues-shield]: https://img.shields.io/github/issues/Jor-Diaz/Sandbox-ReactJs-Django.svg?style=for-the-badge
 [issues-url]: https://github.com/Jor-Diaz/Sandbox-ReactJs-Django/issues
 [license-shield]: https://img.shields.io/github/license/Jor-Diaz/Sandbox-ReactJs-Django.svg?style=for-the-badge
-[license-url]: https://github.com/Jor-Diaz/Sandbox-ReactJs-Django/master/LICENSE.txt
+[license-url]: https://github.com/Jor-Diaz/Sandbox-ReactJs-Django/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://cl.linkedin.com/in/jdiazmatte
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
