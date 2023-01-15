@@ -5,4 +5,5 @@ WORKDIR /code
 COPY requirements.txt /code/
 RUN pip install -r requirements.txt
 COPY . /code/
-RUN python3 manage.py runserver
+EXPOSE 80
+RUN python3 manage.py runserver 0000:80
