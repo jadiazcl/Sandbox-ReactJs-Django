@@ -63,12 +63,7 @@ This repo is a sandbox project for developers. It's a startup of a ReactJs and D
 
 ### Built With
 
-- [![React][react.js]][react-url]
-- [![Django][django]][django-url]
-- [![Docker][docker]][docker-url]
-- [![Bootstrap][bootstrap]][bootstrap-url]
-- [![Javascript][javascript]][javascript-url]
-- [![Python][python]][python-url]
+- [![React][react.js]][react-url] [![Django][django]][django-url] [![Docker][docker]][docker-url] [![Bootstrap][bootstrap]][bootstrap-url] [![Javascript][javascript]][javascript-url] [![Python][python]][python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

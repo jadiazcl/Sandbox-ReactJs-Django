@@ -2,18 +2,18 @@ version: "3.5"
 
 services:
   fronted:
-    build: sandbox
+    build: ReactJsFrontend
     ports:
       - 3000:3000
     volumes:
-      - ./sandbox/src:/code/src
-      - /sandbox/node_modules
+      - ./ReactJsFrontend/src:/code/src
+      - /ReactJsFrontend/node_modules
   backend:
-    container_name: BackDjango
+    container_name: DjangoBackend
     build:
       context: .
-      dockerfile: APIBackend/Dockerfile
-    command: python3 APIBackend/manage.py runserver 0.0.0.0:8000
+      dockerfile: DjangoBackend/Dockerfile
+    command: python3 DjangoBackend/manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
     ports:
