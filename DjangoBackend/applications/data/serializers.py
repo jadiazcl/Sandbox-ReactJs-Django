@@ -9,4 +9,4 @@ class PostForumSerializer(serializers.ModelSerializer):
 class CommentForumSerializer(serializers.ModelSerializer):
 	class Meta:
 		model=CommentForum
-		fields=('id_comment', 'id_post', 'text_post', 'create_time')
+		fields=('id_comment', 'text_comment', 'create_time')
