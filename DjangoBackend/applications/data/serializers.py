@@ -4,7 +4,7 @@ from .models import *
 class PostForumSerializer(serializers.ModelSerializer):
 	class Meta:
 		model=PostForum
-		fields=('id_post', 'text_post', 'create_time')
+		fields=('id_post', 'name_post','text_post', 'create_time')
 
 class CommentForumSerializer(serializers.ModelSerializer):
 	class Meta:
