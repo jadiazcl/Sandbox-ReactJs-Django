@@ -17,7 +17,7 @@ export const get_post_list = () => async (dispatch) => {
       `${process.env.REACT_APP_API_URL}/api/posts`,
       config
     );
-    if (res.status == 200) {
+    if (res.status === 200) {
       dispatch({
         type: GET_POST_LIST_SUCCESS,
         payload: res.data,
@@ -42,10 +42,10 @@ export const get_post = (id_post) => async (dispatch) => {
   };
   try {
     const res = await axios.get(
-      `${process.env.REACT_APP_API_URL}/api/search?id_post${id_post}`,
+      `${process.env.REACT_APP_API_URL}/api/search?id_post=${id_post}`,
       config
     );
-    if (res.status == 200) {
+    if (res.status === 200) {
       dispatch({
         type: GET_POST_SUCCESS,
         payload: res.data,
