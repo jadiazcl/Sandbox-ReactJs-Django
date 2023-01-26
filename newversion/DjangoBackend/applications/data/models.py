@@ -1,14 +1,20 @@
 from django.db import models
 
-def resources_path(post,filename):
-    return 'posts/{0}/{1}'.format(post.name_post,filename)
+def images_path(image_id,filename):
+    return 'static/images/{}'.format(filename)
+
+class ImagesCategories(models.Model):
+    id_image = models.AutoField(primary_key=True)
+    image_category_file = models.ImageField(upload_to=images_path)
+
+    def __str__(self):
+        return str(self.image_category_file)
 
 class PostForum(models.Model):
     id_post =  models.AutoField(primary_key=True)
     name_post = models.TextField(blank = False,  max_length=300)
     text_post = models.TextField(blank = True)
     id_category = models.ForeignKey('ForumCategories', models.DO_NOTHING, db_column='id_category')
-    image_post = models.ImageField(upload_to=resources_path,blank=True,null=True)
     create_time = models.DateTimeField(auto_now_add=True)
     update_time = models.DateTimeField(auto_now=True)
 
@@ -29,6 +35,7 @@ class CommentForum(models.Model):
 class ForumCategories(models.Model):
     id_category = models.AutoField(primary_key=True)
     name_category = models.CharField(max_length=255,blank=False)
+    image = models.ForeignKey('ImagesCategories', models.DO_NOTHING, db_column='image_source')
     create_time = models.DateTimeField(auto_now_add=True)
     update_time = models.DateTimeField(auto_now=True)
 

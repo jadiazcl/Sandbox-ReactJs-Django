@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function PostList({ post_list }) {
   return (
-    <div>
+    <div className="container">
       {post_list ? (
         <div className="relative bg-gray-50 pb-8 px-4 sm:px-6 lg:pb-12 lg:px-8">
           <div className="absolute inset-0">
@@ -16,13 +16,18 @@ export default function PostList({ post_list }) {
                   className="flex flex-col rounded-lg shadow-lg overflow-hidden"
                 >
                   <div className="flex-shrink-0">
-                    <img className="h-48 w-full object-cover" src="#" alt="" />
+                    <img
+                      className="h-48 w-full object-cover"
+                      src={`${process.env.REACT_APP_API_URL}${post.id_category.image.image_category_file}`}
+                      alt=""
+                    />
                   </div>
                   <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                     <div className="flex-1">
                       <p className="text-sm font-medium text-indigo-600">
                         <Link to="#" className="hover:underline">
-                          "EFE"
+                          {post.id_category.name_category}
+                          {post.id_category.image.image_category_file}
                         </Link>
                       </p>
                       <Link

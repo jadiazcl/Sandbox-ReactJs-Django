@@ -8,6 +8,7 @@ function Posts({ get_post_list, post_list }) {
   useState(() => {
     get_post_list();
   }, []);
+
   return (
     <FullWidthLayout>
       <PostList post_list={post_list} />

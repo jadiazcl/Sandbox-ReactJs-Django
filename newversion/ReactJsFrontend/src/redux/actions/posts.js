@@ -4,6 +4,8 @@ import {
   GET_POST_LIST_FAIL,
   GET_POST_SUCCESS,
   GET_POST_FAIL,
+  GET_POST_PAGINATION_RESULTS_SUCCESS,
+  GET_POST_PAGINATION_RESULTS_FAIL,
 } from "./types";
 
 export const get_post_list = () => async (dispatch) => {
@@ -15,6 +17,34 @@ export const get_post_list = () => async (dispatch) => {
   try {
     const res = await axios.get(
       `${process.env.REACT_APP_API_URL}/api/posts`,
+      config
+    );
+    if (res.status === 200) {
+      dispatch({
+        type: GET_POST_LIST_SUCCESS,
+        payload: res.data,
+      });
+    } else {
+      dispatch({
+        type: GET_POST_LIST_FAIL,
+      });
+    }
+  } catch {
+    dispatch({
+      type: GET_POST_LIST_FAIL,
+    });
+  }
+};
+
+export const get_post_list_page = (p) => async (dispatch) => {
+  const config = {
+    headers: {
+      Accept: "application/json",
+    },
+  };
+  try {
+    const res = await axios.get(
+      `${process.env.REACT_APP_API_URL}/api/posts?p=${p}`,
       config
     );
     if (res.status === 200) {
